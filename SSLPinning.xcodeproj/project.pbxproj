@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0508F79A626CB3DD173A5B43 /* Pods_SSLPinning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA9ADBCA380D411732D1BF5 /* Pods_SSLPinning.framework */; };
+		41E83CD310B9ECA24BB6E99A /* Pods_SSLPinning_SSLPinningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FA51BF671C30C4F5C396C5 /* Pods_SSLPinning_SSLPinningTests.framework */; };
+		75AF18D81FB1B46F006A742A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF18D71FB1B46F006A742A /* ViewModel.swift */; };
+		75AF18D91FB1B46F006A742A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF18D71FB1B46F006A742A /* ViewModel.swift */; };
+		75AF18DB1FB1BA4F006A742A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF18DA1FB1BA4F006A742A /* Model.swift */; };
+		75AF18DC1FB1BA4F006A742A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF18DA1FB1BA4F006A742A /* Model.swift */; };
+		75AF18DE1FB1BBB7006A742A /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF18DD1FB1BBB7006A742A /* ViewModelTests.swift */; };
+		75B097CA1FB0E2E40010CD2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B097C91FB0E2E40010CD2F /* AppDelegate.swift */; };
+		75B097CC1FB0E2E40010CD2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B097CB1FB0E2E40010CD2F /* ViewController.swift */; };
+		75B097CF1FB0E2E40010CD2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B097CD1FB0E2E40010CD2F /* Main.storyboard */; };
+		75B097D11FB0E2E40010CD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B097D01FB0E2E40010CD2F /* Assets.xcassets */; };
+		75B097D41FB0E2E40010CD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B097D21FB0E2E40010CD2F /* LaunchScreen.storyboard */; };
+		75B097DF1FB0E2E50010CD2F /* SSLPinningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B097DE1FB0E2E50010CD2F /* SSLPinningTests.swift */; };
+		75B097EA1FB0E35E0010CD2F /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B097E91FB0E35E0010CD2F /* Error.swift */; };
+		75B097EC1FB0E3650010CD2F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B097EB1FB0E3650010CD2F /* Networking.swift */; };
+		75B097EE1FB0E5D00010CD2F /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B097ED1FB0E5D00010CD2F /* Certificate.swift */; };
+		75B097F11FB0E5EE0010CD2F /* github.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 75B097EF1FB0E5DA0010CD2F /* github.com.cer */; };
+		75B097F21FB0E5EE0010CD2F /* github.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 75B097EF1FB0E5DA0010CD2F /* github.com.cer */; };
+		75B097F31FB0E5F40010CD2F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B097EB1FB0E3650010CD2F /* Networking.swift */; };
+		75B097F41FB0E5F60010CD2F /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B097ED1FB0E5D00010CD2F /* Certificate.swift */; };
+		75B097F51FB0E5F80010CD2F /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B097E91FB0E35E0010CD2F /* Error.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75B097DB1FB0E2E50010CD2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B097BE1FB0E2E40010CD2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B097C51FB0E2E40010CD2F;
+			remoteInfo = SSLPinning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02182733BC1CB3EF4D53466F /* Pods-SSLPinning-SSLPinningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLPinning-SSLPinningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSLPinning-SSLPinningTests/Pods-SSLPinning-SSLPinningTests.release.xcconfig"; sourceTree = "<group>"; };
+		0EA9ADBCA380D411732D1BF5 /* Pods_SSLPinning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLPinning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B36C026357AB77D71DAA5D /* Pods-SSLPinning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLPinning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSLPinning/Pods-SSLPinning.debug.xcconfig"; sourceTree = "<group>"; };
+		4C8EDE83B00A151FD971D60B /* Pods-SSLPinning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLPinning.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSLPinning/Pods-SSLPinning.release.xcconfig"; sourceTree = "<group>"; };
+		65FA51BF671C30C4F5C396C5 /* Pods_SSLPinning_SSLPinningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLPinning_SSLPinningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AF18D71FB1B46F006A742A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		75AF18DA1FB1BA4F006A742A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		75AF18DD1FB1BBB7006A742A /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		75B097C61FB0E2E40010CD2F /* SSLPinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLPinning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B097C91FB0E2E40010CD2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75B097CB1FB0E2E40010CD2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75B097CE1FB0E2E40010CD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75B097D01FB0E2E40010CD2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75B097D31FB0E2E40010CD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75B097DA1FB0E2E50010CD2F /* SSLPinningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLPinningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B097DE1FB0E2E50010CD2F /* SSLPinningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLPinningTests.swift; sourceTree = "<group>"; };
+		75B097E01FB0E2E50010CD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B097E91FB0E35E0010CD2F /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		75B097EB1FB0E3650010CD2F /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		75B097ED1FB0E5D00010CD2F /* Certificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificate.swift; sourceTree = "<group>"; };
+		75B097EF1FB0E5DA0010CD2F /* github.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = github.com.cer; sourceTree = "<group>"; };
+		75B097F61FB0E66F0010CD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2A52FA134F14E9D26FB81C /* Pods-SSLPinning-SSLPinningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLPinning-SSLPinningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSLPinning-SSLPinningTests/Pods-SSLPinning-SSLPinningTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75B097C31FB0E2E40010CD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0508F79A626CB3DD173A5B43 /* Pods_SSLPinning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B097D71FB0E2E50010CD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E83CD310B9ECA24BB6E99A /* Pods_SSLPinning_SSLPinningTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		666865DE2894ACC6A2943B1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48B36C026357AB77D71DAA5D /* Pods-SSLPinning.debug.xcconfig */,
+				4C8EDE83B00A151FD971D60B /* Pods-SSLPinning.release.xcconfig */,
+				EF2A52FA134F14E9D26FB81C /* Pods-SSLPinning-SSLPinningTests.debug.xcconfig */,
+				02182733BC1CB3EF4D53466F /* Pods-SSLPinning-SSLPinningTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75B097BD1FB0E2E40010CD2F = {
+			isa = PBXGroup;
+			children = (
+				75B097C81FB0E2E40010CD2F /* SSLPinning */,
+				75B097DD1FB0E2E50010CD2F /* SSLPinningTests */,
+				75B097C71FB0E2E40010CD2F /* Products */,
+				666865DE2894ACC6A2943B1B /* Pods */,
+				A59E360B486277F632189D16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75B097C71FB0E2E40010CD2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B097C61FB0E2E40010CD2F /* SSLPinning.app */,
+				75B097DA1FB0E2E50010CD2F /* SSLPinningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B097C81FB0E2E40010CD2F /* SSLPinning */ = {
+			isa = PBXGroup;
+			children = (
+				75B097C91FB0E2E40010CD2F /* AppDelegate.swift */,
+				75B097E91FB0E35E0010CD2F /* Error.swift */,
+				75B097ED1FB0E5D00010CD2F /* Certificate.swift */,
+				75B097EB1FB0E3650010CD2F /* Networking.swift */,
+				75AF18DA1FB1BA4F006A742A /* Model.swift */,
+				75AF18D71FB1B46F006A742A /* ViewModel.swift */,
+				75B097CB1FB0E2E40010CD2F /* ViewController.swift */,
+				75B097F01FB0E5E20010CD2F /* Resources */,
+				75B097F61FB0E66F0010CD2F /* Info.plist */,
+			);
+			path = SSLPinning;
+			sourceTree = "<group>";
+		};
+		75B097DD1FB0E2E50010CD2F /* SSLPinningTests */ = {
+			isa = PBXGroup;
+			children = (
+				75B097DE1FB0E2E50010CD2F /* SSLPinningTests.swift */,
+				75AF18DD1FB1BBB7006A742A /* ViewModelTests.swift */,
+				75B097E01FB0E2E50010CD2F /* Info.plist */,
+			);
+			path = SSLPinningTests;
+			sourceTree = "<group>";
+		};
+		75B097F01FB0E5E20010CD2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75B097CD1FB0E2E40010CD2F /* Main.storyboard */,
+				75B097D01FB0E2E40010CD2F /* Assets.xcassets */,
+				75B097D21FB0E2E40010CD2F /* LaunchScreen.storyboard */,
+				75B097EF1FB0E5DA0010CD2F /* github.com.cer */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A59E360B486277F632189D16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EA9ADBCA380D411732D1BF5 /* Pods_SSLPinning.framework */,
+				65FA51BF671C30C4F5C396C5 /* Pods_SSLPinning_SSLPinningTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75B097C51FB0E2E40010CD2F /* SSLPinning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B097E31FB0E2E50010CD2F /* Build configuration list for PBXNativeTarget "SSLPinning" */;
+			buildPhases = (
+				EA7E514F4DCE293B5A7F3F56 /* [CP] Check Pods Manifest.lock */,
+				75B097C21FB0E2E40010CD2F /* Sources */,
+				75B097C31FB0E2E40010CD2F /* Frameworks */,
+				75B097C41FB0E2E40010CD2F /* Resources */,
+				B167A19E09B202FECE596FC6 /* [CP] Embed Pods Frameworks */,
+				82CBD590E99AEB4C74ECBDF2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLPinning;
+			productName = SSLPinning;
+			productReference = 75B097C61FB0E2E40010CD2F /* SSLPinning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75B097D91FB0E2E50010CD2F /* SSLPinningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B097E61FB0E2E50010CD2F /* Build configuration list for PBXNativeTarget "SSLPinningTests" */;
+			buildPhases = (
+				E3FCD134F01C10496C264AE1 /* [CP] Check Pods Manifest.lock */,
+				75B097D61FB0E2E50010CD2F /* Sources */,
+				75B097D71FB0E2E50010CD2F /* Frameworks */,
+				75B097D81FB0E2E50010CD2F /* Resources */,
+				502CBC197679411746009798 /* [CP] Embed Pods Frameworks */,
+				3F8B9F3407775C85AF370B98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75B097DC1FB0E2E50010CD2F /* PBXTargetDependency */,
+			);
+			name = SSLPinningTests;
+			productName = SSLPinningTests;
+			productReference = 75B097DA1FB0E2E50010CD2F /* SSLPinningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75B097BE1FB0E2E40010CD2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Andrei Popa";
+				TargetAttributes = {
+					75B097C51FB0E2E40010CD2F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					75B097D91FB0E2E50010CD2F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75B097C51FB0E2E40010CD2F;
+					};
+				};
+			};
+			buildConfigurationList = 75B097C11FB0E2E40010CD2F /* Build configuration list for PBXProject "SSLPinning" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75B097BD1FB0E2E40010CD2F;
+			productRefGroup = 75B097C71FB0E2E40010CD2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75B097C51FB0E2E40010CD2F /* SSLPinning */,
+				75B097D91FB0E2E50010CD2F /* SSLPinningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75B097C41FB0E2E40010CD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B097D41FB0E2E40010CD2F /* LaunchScreen.storyboard in Resources */,
+				75B097D11FB0E2E40010CD2F /* Assets.xcassets in Resources */,
+				75B097F11FB0E5EE0010CD2F /* github.com.cer in Resources */,
+				75B097CF1FB0E2E40010CD2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B097D81FB0E2E50010CD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B097F21FB0E5EE0010CD2F /* github.com.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F8B9F3407775C85AF370B98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSLPinning-SSLPinningTests/Pods-SSLPinning-SSLPinningTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		502CBC197679411746009798 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SSLPinning-SSLPinningTests/Pods-SSLPinning-SSLPinningTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSLPinning-SSLPinningTests/Pods-SSLPinning-SSLPinningTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82CBD590E99AEB4C74ECBDF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSLPinning/Pods-SSLPinning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B167A19E09B202FECE596FC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SSLPinning/Pods-SSLPinning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSLPinning/Pods-SSLPinning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FCD134F01C10496C264AE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSLPinning-SSLPinningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7E514F4DCE293B5A7F3F56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSLPinning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75B097C21FB0E2E40010CD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AF18DB1FB1BA4F006A742A /* Model.swift in Sources */,
+				75B097EE1FB0E5D00010CD2F /* Certificate.swift in Sources */,
+				75B097CC1FB0E2E40010CD2F /* ViewController.swift in Sources */,
+				75B097EA1FB0E35E0010CD2F /* Error.swift in Sources */,
+				75B097CA1FB0E2E40010CD2F /* AppDelegate.swift in Sources */,
+				75AF18D81FB1B46F006A742A /* ViewModel.swift in Sources */,
+				75B097EC1FB0E3650010CD2F /* Networking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B097D61FB0E2E50010CD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AF18D91FB1B46F006A742A /* ViewModel.swift in Sources */,
+				75B097F51FB0E5F80010CD2F /* Error.swift in Sources */,
+				75B097F41FB0E5F60010CD2F /* Certificate.swift in Sources */,
+				75AF18DC1FB1BA4F006A742A /* Model.swift in Sources */,
+				75B097DF1FB0E2E50010CD2F /* SSLPinningTests.swift in Sources */,
+				75AF18DE1FB1BBB7006A742A /* ViewModelTests.swift in Sources */,
+				75B097F31FB0E5F40010CD2F /* Networking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75B097DC1FB0E2E50010CD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75B097C51FB0E2E40010CD2F /* SSLPinning */;
+			targetProxy = 75B097DB1FB0E2E50010CD2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75B097CD1FB0E2E40010CD2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75B097CE1FB0E2E40010CD2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75B097D21FB0E2E40010CD2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75B097D31FB0E2E40010CD2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75B097E11FB0E2E50010CD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75B097E21FB0E2E50010CD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75B097E41FB0E2E50010CD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B36C026357AB77D71DAA5D /* Pods-SSLPinning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SSLPinning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrei-Popa.SSLPinning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75B097E51FB0E2E50010CD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C8EDE83B00A151FD971D60B /* Pods-SSLPinning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SSLPinning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrei-Popa.SSLPinning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75B097E71FB0E2E50010CD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2A52FA134F14E9D26FB81C /* Pods-SSLPinning-SSLPinningTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLBUQ4A5Q9;
+				INFOPLIST_FILE = SSLPinningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrei-Popa.SSLPinningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLPinning.app/SSLPinning";
+			};
+			name = Debug;
+		};
+		75B097E81FB0E2E50010CD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02182733BC1CB3EF4D53466F /* Pods-SSLPinning-SSLPinningTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLBUQ4A5Q9;
+				INFOPLIST_FILE = SSLPinningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrei-Popa.SSLPinningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLPinning.app/SSLPinning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75B097C11FB0E2E40010CD2F /* Build configuration list for PBXProject "SSLPinning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B097E11FB0E2E50010CD2F /* Debug */,
+				75B097E21FB0E2E50010CD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B097E31FB0E2E50010CD2F /* Build configuration list for PBXNativeTarget "SSLPinning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B097E41FB0E2E50010CD2F /* Debug */,
+				75B097E51FB0E2E50010CD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B097E61FB0E2E50010CD2F /* Build configuration list for PBXNativeTarget "SSLPinningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B097E71FB0E2E50010CD2F /* Debug */,
+				75B097E81FB0E2E50010CD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75B097BE1FB0E2E40010CD2F /* Project object */;
+}
